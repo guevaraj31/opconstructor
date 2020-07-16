@@ -1,0 +1,126 @@
+
+/*
+  Theme Name: Web Site
+  Author: Jesus Guevara
+  Author URL: https://guevaraj31.github.io/
+*/
+
+/*  General Styling
+/*-----------------------------------------------------------------------------------*/
+
+html, body{
+border: 0;
+margin: 0;
+background-color: snow;
+}
+
+#perfil {
+  margin-top: 50px;
+}
+#linea1, #linea2, #linea3{
+  display: flex;
+  justify-content: center;
+}
+
+#linea1 > div,#linea2 > div, #linea3 > div{
+  border: 1px solid blanchedalmond;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  margin: 1px;
+}
+
+/*lados*/
+#lado1, #lado2, #lado3,
+#lado4, #lado5, #lado6,
+#lado7, #lado8, #lado9{
+background-color: #0000AA;
+font-size: 20px;
+font-weight: 700;
+}
+
+h1 {
+	color: #fff;
+}
+h2 {
+  margin-top: 30px;
+}
+
+.flexible {
+  width: 100px !important;
+  height: 100px !important;
+  
+  transition: width 0.5s, height 0.5s;
+}
+
+.flexible:hover {
+  width: 120px !important;
+  height: 120px !important;
+}
+
+#img-home {
+  width: 100%;
+  height: auto;
+}
+
+#home{
+	min-height: 400px;
+	width: 100%;
+	background-position: bottom;
+	display: flex;
+}
+
+#home .container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+#lenguaje {
+  min-height: 400px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+
+#frameworks {
+  min-height: 400px;
+  width: 100%;
+  background-color: #b2cab6;
+}
+
+#texto-color {
+  color: #000;
+  text-align: center;
+  margin: 20px;
+}
+
+.lenguajes{
+	display: flex;
+	align-items: center;
+}
+
+.logo-lenguaje img{
+	max-width:100px;
+	max-height:100px;
+}
+
+.frameworks {
+	display:flex;
+	align-items:center;
+}
+
+.logo-frameworks img{
+	max-width:100px;
+	max-height:100px;
+}
+#lenguaje h2{
+	text-align: center;
+	padding: 25px;
+}
+
+#frameworks h2{
+	text-align: center;
+	padding: 25px;
+}
+
