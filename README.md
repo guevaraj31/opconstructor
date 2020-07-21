@@ -10,4 +10,8 @@ y 🧑‍💼 administrar sus elementos.
 
     npm run dev
 
+    crear y conectar a BD
+
+    php artisan migrate
+
 # Versiones
