@@ -14,7 +14,32 @@
                         </div>
                     @endif
 
-                    {{ __('You are logged in!') }}
+                    <h3>
+                        Listado
+                    </h3>
+                    <table class="table table-striped">
+                        <thead>
+                            <th>#</th>
+                            <th>titulo</th> 
+                            <th></th>   
+                        <thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Prueba 1</td>
+                                <td>
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="#">Editar</a>
+                                    <a href="#">Eliminar</a>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>2</td>
+                                <td>hoja 1</td>
+                            </tr>
+                            
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </div>
