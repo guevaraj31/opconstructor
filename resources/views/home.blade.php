@@ -21,21 +21,29 @@
                         <thead>
                             <th>#</th>
                             <th>titulo</th> 
+                            <th>Autor</th>
                             <th></th>   
                         <thead>
                         <tbody>
                             <tr>
                                 <td>1</td>
                                 <td>Prueba 1</td>
+                                <td>Autor 1</td>
                                 <td>
                                     <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
-                                    <a href="#">Editar</a>
-                                    <a href="#">Eliminar</a>
+                                    <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
                                 </td>
                             </tr>
                             <tr>
                                 <td>2</td>
                                 <td>hoja 1</td>
+                                <td>Autor 1</td>
+                                <td>
+                                    <a href="#"><i class="fa fa-eye" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-pencil" aria-hidden="true"></i></a>
+                                    <a href="#"><i class="fa fa-trash" aria-hidden="true"></i></a>
+                                </td>
                             </tr>
                             
                         </tbody>
